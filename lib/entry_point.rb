@@ -4,7 +4,7 @@ require_relative './fancy_dance.rb'
 require_relative './dancer.rb'
 
 
-p angelina = Dancer.new
+p angelina = Dancer.new("angelina")
 p angelina.twirl
 #// returns "I'm twirling!"
 
