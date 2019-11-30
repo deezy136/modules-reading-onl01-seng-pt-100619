@@ -3,15 +3,18 @@ require_relative './class_methods_module.rb'
 require_relative './fancy_dance.rb'
 
 
-angelina = Dancer.new
-angelina.twirl
+p angelina = Dancer.new
+p angelina.twirl
 // returns "I'm twirling!"
-angelina.jump
+
+p angelina.jump
 // returns "Look how high I'm jumping!"
  
-buster = Kid.new
-buster.jump
+p buster = Kid.new
+
+p buster.jump
 // returns "Look how high I'm jumping!"
-buster.take_a_bow
+
+p buster.take_a_bow
 // returns "Thank you, thank you. It was a pleasure to dance for you all."
  
