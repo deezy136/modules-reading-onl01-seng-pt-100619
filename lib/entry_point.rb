@@ -11,7 +11,7 @@ p angelina.twirl
 p angelina.jump
 #// returns "Look how high I'm jumping!"
  
-p buster = Kid.new
+p buster = Kid.new("clyde")
 
 p buster.jump
 #// returns "Look how high I'm jumping!"
