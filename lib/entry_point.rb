@@ -2,6 +2,7 @@ require_relative './dance_module.rb'
 require_relative './class_methods_module.rb'
 require_relative './fancy_dance.rb'
 require_relative './dancer.rb'
+require_relative './kid.rb'
 
 
 p angelina = Dancer.new("angelina")
